@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Car 1.png'); /* Adjust the path if necessary */
+    background-size: cover; /* Scale the image to cover the entire viewport */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 11%;
+    
+}
+
+.container {
+    text-align: center;
+    width: 600px;
+    font-size: 1.2rem;
+    text-shadow: 
+        0 0 5px #000000,    /* Glow effect */
+        0 0 10px #000000,
+        0 0 15px #000000,
+        0 0 20px #000000,
+        0 0 25px #000000,
+        0 0 30px #000000;
+}
+
+.container h2 {
+    font-size: 2.2rem; /* Adjust font size as needed */
+    color: #ffffff; /* Base color of the text */
+    font-family: 'Arial', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, monospace;
+    font-weight: bold; /* Makes the text bolder */
+    margin-bottom: 40px;
+    letter-spacing: 1.2px;
+    text-shadow: 
+        0 0 5px #000000,    /* Glow effect */
+        0 0 10px #000000,
+        0 0 15px #000000,
+        0 0 20px #000000,
+        0 0 25px #000000,
+        0 0 30px #000000;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Keyframe animations */
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-90px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animations to selects */
+form select:nth-of-type(1) {
+    animation: slideInFromLeft 0.6s ease-out forwards;
+}
+
+form select:nth-of-type(2) {
+    animation: slideInFromTop 0.8s ease-out forwards;
+}
+
+form select:nth-of-type(3) {
+    animation: slideInFromRight 1s ease-out forwards;
+}
+
+form select:nth-of-type(4) {
+    animation: slideInFromBottom 1.1s ease-out forwards;
+}
+
+form select {
+    width: 420px;
+    padding: 15px;
+    padding-left: 10px;
+    background-color: rgba(87, 255, 120, 0.7); /* Adjust opacity here */
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.details img {
+    max-width: 40%;
+    height: auto;
+    transition: transform 0.3s ease; /* For scaling */
+    /* For wiggle effect, remove the transition line */
+}
+
+.details img:hover {
+    transform: scale(1.1); /* For scaling effect */
+    /* For wiggle effect, use the animation property */
+    /* animation: wiggle 0.5s ease; */
+}

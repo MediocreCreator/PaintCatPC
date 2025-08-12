@@ -3,33 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PaintCat Assistant</title>
-    <link rel="stylesheet" href="Styles.css">
+    <title>PAINTCAT</title>
+    <link rel="stylesheet" href="Page 1 Styles.css">
 </head>
 <body>
     <div class="container">
-        <h2>WELCOME TO PAINTCAT</h2>
-
-        <form id="productForm">
-            <select id="product" name="product">
-                <option value="">Select a Product</option>
-            </select>
-
-            <select id="brand" name="brand" disabled>
-                <option value="">Select a Brand</option>
-            </select>
-            
-            <select id="variation" name="variation" disabled>
-                <option value="">Select a Variation</option>
-            </select>
-        </form>
-        
-        <div id="variationDetails" class="details" style="display: none;">
-                <img id="variationImage" src="" alt="Variation Image" />
-            </a>
-            <p id="variationDescription"></p>
+        <div class="overlay">
+            <h1 class="title">Welcome to PaintCat</h1>
+            <p class="subtitle">Paint Assistance At The Click Of A Mouse.</p>
+            <a href="index2.html" class="cta-button" id="enterButton">Browse Color Perfect Products</a>
         </div>
     </div>
-    <script src="Script.js"></script>
+    <div class="fade-out" id="fadeOut"></div>
+    <script src="Page 1 Script.js"></script>
 </body>
 </html>

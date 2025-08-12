@@ -90,13 +90,22 @@ const data = {
         ]
     },
 
-    "Masking Tape": {
+    "Masking Tape & Trim Masking Tape": {
         "Speed/Avast": [
             { name: "AVAST 18mm", image: "Images/Speed/Avast 18.png", description: "9106401001 80 Degrees Celcuis Tolerance. Ideal For The Panel Shop." },
             { name: "Speed 18mm", image: "Images/Speed/Speed18.png", description: "9106401005 80 Degrees Celcuis Tolerance. Ideal For The Panel Shop." },
             { name: "Speed 24mm", image: "Images/Speed/Speed24.png", description: "9106401002 For Masking Of Larger Surfaces" },
             { name: "Speed 36mm", image: "Images/Speed/Speed36.png", description: "9106401003 For Masking Of Larger Surfaces" },
             { name: "Speed 48mm", image: "Images/Speed/Speed48.png", description: "9106401004 For Masking Of Larger Surfaces" }
+        ],
+
+        "Finixa": [
+            {name: "Tape Lifting 10mm x10m", image: "Images/Finixa Mixing Cups/Lifiting Tape.png", description: "9106405336 Masking tape with 10mm plastic strip for masking around wind screens. Simply place the plastic strip between rubber and panel and then pull away the rubber from the panel by attaching the tape to the window."}
+        ],
+
+        "3M": [
+            {name: "Tape Trim Masking", image: "Images/3M/Trim Tape.png", description: "9106028020 Hard band at the tape edge slightly lifts moldings from the body, concealing sharp paint edges "}
+
         ]
     },
 
@@ -283,10 +292,10 @@ const data = {
             { name: "2K MS Primer Grey 1L (Requires Hardener & Thinner)", image: "Images/Ducol/2K MS Primer Grey.png", description: "9123408001 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
             { name: "2K MS Primer Grey 5L (Requires Hardener & Thinner)", image: "Images/Ducol/2K MS Primer 5L.png", description: "9123601008 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
             { name: "2K MS Primer Beige 1L (Requires Hardener & Thinner)", image: "Images/Ducol/MS Primer Beige 1L.png", description: "9123408002 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "NC Primer Grey 1L", image: "Images/Ducol/NC Primer Grey 1L.png", description: "9123408051 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "NC Primer Grey 5L", image: "Images/Ducol/NC Primer Grey 5L.png", description: "9123408055 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "NC Primer Beige 1L", image: "Images/Ducol/NC Primer Beige 1L.png", description: "9123408101 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "NC Primer Beige 5L", image: "Images/Ducol/NC Primer Beige 5L.png", description: "9123408105 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" }
+            { name: "NC Primer Grey 1L (NO Hardener Required)", image: "Images/Ducol/NC Primer Grey 1L.png", description: "9123408051 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround. Requires NO hardener" },
+            { name: "NC Primer Grey 5L (NO Hardener Required)", image: "Images/Ducol/NC Primer Grey 5L.png", description: "9123408055 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround. Requires NO hardener" },
+            { name: "NC Primer Beige 1L (NO Hardener Required)", image: "Images/Ducol/NC Primer Beige 1L.png", description: "9123408101 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround. Requires NO hardener" },
+            { name: "NC Primer Beige 5L (NO Hardener Required)", image: "Images/Ducol/NC Primer Beige 5L.png", description: "9123408105 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround Requires NO hardener" }
         ],
         "Speed (2nd Affordable Alternative)": [
             { name: "2K MS Primer Beige 1L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed 2K MS Beige Primer 1L.png", description: "9123200020 Speed Ecoline MS Primer can be applied over PE putties/body fillers, 2K Epoxy Primers, 2K wash Primers, 1K Etch Primers, original OEM primers, GRP, and over well sanded old finishes in solid conditions." },

@@ -518,7 +518,7 @@ const data = {
 
     "Trim Tape":{
         "Fixon": [
-            { name: "Trim Masking Tape", image: "Images/Gondolier/Trim Masking Tape.png", description: "Non Stock yet! - Used for masking of trimmings" },
+            { name: "Trim Masking Tape", image: "Images/Gondolier/Trim Masking Tape.png", description: "9106405336 - Used for masking of trimmings" },
         ],
         "3M": [
             { name: "Trim Masking Tape", image: "Images/3M/Trim Tape.png", description: "9106028020 - Used for masking of trimmings" }

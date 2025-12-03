@@ -287,6 +287,20 @@ const data = {
 
     },
 
+    "PREPSOL/Spirits Wipe":{
+        "PPG": [
+        { name: "D837 Spirit Wipe Import 5L", image: "Images/Prepsol/D837 IMP.png", description: "9124406837 - Used for degreasing of panels before sanding or paint application"},
+        ],
+        
+        "Max Meyer": [
+             { name: "M445 Spirit Wipe MM445 5L", image: "Images/Prepsol/M445.png", description: "9124944505 - Used for degreasing of panels before sanding or paint application"},
+        ],
+        
+        'DUCOL': [
+            { name: "D837 Spirit Wipe 5L Local", image: "Images/Prepsol/837 Local.png", description: "9124305837 - Used for degreasing of panels before sanding or paint application"},
+        ]
+    },
+
     "Primers": {
         "Nexa (Best In The Range)": [
             
